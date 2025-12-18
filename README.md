@@ -19,37 +19,6 @@ Perfect for **founders, analysts, marketers, and consultants** who need quick ye
 
 SiteScope AI follows a **decoupled client–server architecture**, ensuring scalability and clean separation of concerns.
 
-```mermaid
-graph TD
-  subgraph "Frontend (React + Vite)"
-    UI[User Interface - Tailwind / Framer Motion]
-    State[State Management - Axios]
-  end
-
-  subgraph "Backend (FastAPI)"
-    Core[FastAPI Core]
-    Parser[Pydantic Output Parser]
-    CrawlEngine[Firecrawl SDK]
-    LLMEngine[LangChain LLM Interface]
-  end
-
-  subgraph "External Services"
-    FC[Firecrawl API - Web Crawling]
-    GEM[Gemini 1.5 Flash - Analysis]
-  end
-
-  UI -->|URL Request| Core
-  Core -->|Initiate Crawl| CrawlEngine
-  CrawlEngine -->|Crawl / Scrape| FC
-  FC -->|Markdown Content| CrawlEngine
-  CrawlEngine -->|Aggregated Data| Core
-  Core -->|Context Prompt| LLMEngine
-  LLMEngine -->|Inference| GEM
-  GEM -->|Intelligence| LLMEngine
-  LLMEngine -->|Raw JSON| Parser
-  Parser -->|Structured Report| Core
-  Core -->|Unified BI Report| UI
-```
 
 <img width="369" height="520" alt="image" src="https://github.com/user-attachments/assets/e80fc66d-b40e-4482-8a66-ffeaf6559b8a" />
 
