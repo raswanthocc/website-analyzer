@@ -1,4 +1,4 @@
-<img width="369" height="520" alt="image" src="https://github.com/user-attachments/assets/7ce9ff9e-68ba-43cf-b12c-e177214b68da" /># 🚀 SiteScope AI — Website Analyzer
+# 🚀 SiteScope AI — Website Analyzer
 
 **SiteScope AI** is a premium **Business Intelligence (BI) tool** that transforms raw website data into **structured, actionable insights**.
 By combining **high-speed automated crawling** with **state-of-the-art LLM analysis**, it delivers a **360-degree intelligence view** of any company’s digital presence.
@@ -51,7 +51,7 @@ graph TD
   Core -->|Unified BI Report| UI
 ```
 
-<img width="369" height="520" alt="image" src="https://github.com/user-attachments/assets/12353f77-dd02-4dfd-96a9-f620f21934bc" />
+<img width="369" height="520" alt="image" src="https://github.com/user-attachments/assets/e80fc66d-b40e-4482-8a66-ffeaf6559b8a" />
 
 
 ---
@@ -202,3 +202,12 @@ Open your browser at:
 MIT License
 
 ---
+
+If you want, I can also:
+
+* Add **screenshots / demo GIF section**
+* Write a **“Why SiteScope AI?”** section
+* Optimize it for **GitHub stars & discoverability**
+* Create a **deployment guide (Docker / Render / Vercel)**
+
+Just tell me 👍
