@@ -166,17 +166,3 @@ Open your browser at:
 
 ---
 
-## 📄 License
-
-MIT License
-
----
-
-If you want, I can also:
-
-* Add **screenshots / demo GIF section**
-* Write a **“Why SiteScope AI?”** section
-* Optimize it for **GitHub stars & discoverability**
-* Create a **deployment guide (Docker / Render / Vercel)**
-
-Just tell me 👍
